@@ -1,0 +1,20 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "eco_hero",
+      "value": "#4CAF50"
+    },
+    {
+      "name": "green_walker",
+      "value": "#81C784"
+    },
+    {
+      "name": "keep_going",
+      "value": "#FFB74D"
+    }
+  ]
+}

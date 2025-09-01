@@ -1,0 +1,26 @@
+# Node and package manager
+/node_modules/
+package-lock.json
+
+# HarmonyOS specific
+/oh_modules/
+/local.properties
+/.hvigor
+**/build
+
+# IDE and editor settings
+/.idea/
+.vscode/
+.VSCodeCounter
+
+# Native build cache
+.cxx/
+.clangd
+.clang-format
+.clang-tidy
+
+# Test artifacts
+**/.test/
+
+# App analyzer reports
+/.appanalyzer

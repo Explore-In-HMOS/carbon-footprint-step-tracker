@@ -1,0 +1,22 @@
+{
+  "string": [
+    { "name": "app_name", "value": "DünyaAdımları" },
+    { "name": "steps_label", "value": "Adımlar" },
+    { "name": "co2_saved_label", "value": "CO₂ Tasarrufu" },
+    { "name": "distance_label", "value": "Mesafe" },
+    { "name": "eco_hero", "value": "Eko Kahraman!" },
+    { "name": "green_walker", "value": "Yeşil Yürüyüşçü" },
+    { "name": "keep_going", "value": "Devam et!" },
+    { "name": "calories_label", "value": "Kaloriler" },
+    { "name": "today_summary", "value": "Bugünün Özeti" },
+    { "name": "weekly_report", "value": "Haftalık Rapor" },
+    { "name": "language_settings", "value": "Dil Ayarları" },
+    { "name": "goal_reached", "value": "Hedefe Ulaşıldı!" },
+    { "name": "steps_unit", "value": "adım" },
+    { "name": "kg_unit", "value": "kg" },
+    { "name": "pedometer_desc", "value": "Bu uygulama adımlarınızı saymak ve yürüdüğünüz mesafeyi ile CO₂ tasarrufunu hesaplamak için hareket etkinliğinize erişim gerektirir." },
+    { "name": "module_desc", "value": "Modül Açıklaması" },
+    { "name": "EntryAbility_desc", "value": "Açıklama" },
+    { "name": "EntryAbility_label", "value": "DünyaAdımları" }
+  ]
+}

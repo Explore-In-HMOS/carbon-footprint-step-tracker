@@ -1,0 +1,22 @@
+{
+  "string": [
+    { "name": "app_name", "value": "EarthSteps" },
+    { "name": "steps_label", "value": "Steps" },
+    { "name": "co2_saved_label", "value": "CO₂ Saved" },
+    { "name": "distance_label", "value": "Distance" },
+    { "name": "eco_hero", "value": "Eco Hero!" },
+    { "name": "green_walker", "value": "Green Walker" },
+    { "name": "keep_going", "value": "Keep Going!" },
+    { "name": "calories_label", "value": "Calories" },
+    { "name": "today_summary", "value": "Today's Summary" },
+    { "name": "weekly_report", "value": "Weekly Report" },
+    { "name": "language_settings", "value": "Language Settings" },
+    { "name": "goal_reached", "value": "Goal Reached!" },
+    { "name": "steps_unit", "value": "steps" },
+    { "name": "kg_unit", "value": "kg" },
+    { "name": "pedometer_desc", "value": "This app needs access to your motion activity to count your steps and calculate your walking distance and CO₂ savings." },
+    { "name": "module_desc", "value": "Module Description" },
+    { "name": "EntryAbility_desc", "value": "Description" },
+    { "name": "EntryAbility_label", "value": "EarthSteps" }
+  ]
+}

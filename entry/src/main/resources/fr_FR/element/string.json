@@ -1,0 +1,22 @@
+{
+  "string": [
+    { "name": "app_name", "value": "PasTerre" },
+    { "name": "steps_label", "value": "Pas" },
+    { "name": "co2_saved_label", "value": "CO₂ Économisé" },
+    { "name": "distance_label", "value": "Distance" },
+    { "name": "eco_hero", "value": "Héros Écolo!" },
+    { "name": "green_walker", "value": "Marcheur Vert" },
+    { "name": "keep_going", "value": "Continue!" },
+    { "name": "calories_label", "value": "Calories" },
+    { "name": "today_summary", "value": "Résumé du jour" },
+    { "name": "weekly_report", "value": "Rapport hebdomadaire" },
+    { "name": "language_settings", "value": "Paramètres de langue" },
+    { "name": "goal_reached", "value": "Objectif Atteint!" },
+    { "name": "steps_unit", "value": "pas" },
+    { "name": "kg_unit", "value": "kg" },
+    { "name": "pedometer_desc", "value": "Cette application a besoin d'accéder à votre activité physique pour compter vos pas et calculer votre distance parcourue et vos économies de CO₂." },
+    { "name": "module_desc", "value": "Description du module" },
+    { "name": "EntryAbility_desc", "value": "Description" },
+    { "name": "EntryAbility_label", "value": "PasTerre" }
+  ]
+}

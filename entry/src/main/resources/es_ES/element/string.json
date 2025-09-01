@@ -1,0 +1,22 @@
+{
+  "string": [
+    { "name": "app_name", "value": "PasosVerdes" },
+    { "name": "steps_label", "value": "Pasos" },
+    { "name": "co2_saved_label", "value": "CO₂ Ahorrado" },
+    { "name": "distance_label", "value": "Distancia" },
+    { "name": "eco_hero", "value": "¡Héroe Ecológico!" },
+    { "name": "green_walker", "value": "Caminante Verde" },
+    { "name": "keep_going", "value": "¡Sigue así!" },
+    { "name": "calories_label", "value": "Calorías" },
+    { "name": "today_summary", "value": "Resumen de Hoy" },
+    { "name": "weekly_report", "value": "Informe Semanal" },
+    { "name": "language_settings", "value": "Configuración de idioma" },
+    { "name": "goal_reached", "value": "¡Meta Alcanzada!" },
+    { "name": "steps_unit", "value": "pasos" },
+    { "name": "kg_unit", "value": "kg" },
+    { "name": "pedometer_desc", "value": "Esta aplicación necesita acceso a tu actividad física para contar tus pasos y calcular la distancia recorrida y el CO₂ ahorrado." },
+    { "name": "module_desc", "value": "Descripción del módulo" },
+    { "name": "EntryAbility_desc", "value": "Descripción" },
+    { "name": "EntryAbility_label", "value": "PasosVerdes" }
+  ]
+}

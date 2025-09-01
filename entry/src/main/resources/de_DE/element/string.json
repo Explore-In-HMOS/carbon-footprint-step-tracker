@@ -1,0 +1,22 @@
+{
+  "string": [
+    { "name": "app_name", "value": "ErdeSchritte" },
+    { "name": "steps_label", "value": "Schritte" },
+    { "name": "co2_saved_label", "value": "CO₂ Gespart" },
+    { "name": "distance_label", "value": "Entfernung" },
+    { "name": "eco_hero", "value": "Öko-Held!" },
+    { "name": "green_walker", "value": "Grüner Wanderer" },
+    { "name": "keep_going", "value": "Weiter so!" },
+    { "name": "calories_label", "value": "Kalorien" },
+    { "name": "today_summary", "value": "Tagesübersicht" },
+    { "name": "weekly_report", "value": "Wochenbericht" },
+    { "name": "language_settings", "value": "Spracheinstellungen" },
+    { "name": "goal_reached", "value": "Ziel Erreicht!" },
+    { "name": "steps_unit", "value": "Schritte" },
+    { "name": "kg_unit", "value": "kg" },
+    { "name": "pedometer_desc", "value": "Diese App benötigt Zugriff auf Ihre Bewegungsaktivität, um Ihre Schritte zu zählen und die zurückgelegte Strecke sowie die eingesparte CO₂-Menge zu berechnen." },
+    { "name": "module_desc", "value": "Modulbeschreibung" },
+    { "name": "EntryAbility_desc", "value": "Beschreibung" },
+    { "name": "EntryAbility_label", "value": "ErdeSchritte" }
+  ]
+}

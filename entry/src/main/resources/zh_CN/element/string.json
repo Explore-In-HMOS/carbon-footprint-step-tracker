@@ -1,0 +1,22 @@
+{
+  "string": [
+    { "name": "app_name", "value": "地球步伐" },
+    { "name": "steps_label", "value": "步数" },
+    { "name": "co2_saved_label", "value": "节省的CO₂" },
+    { "name": "distance_label", "value": "距离" },
+    { "name": "eco_hero", "value": "环保英雄！" },
+    { "name": "green_walker", "value": "绿色行者" },
+    { "name": "keep_going", "value": "继续加油！" },
+    { "name": "calories_label", "value": "卡路里" },
+    { "name": "today_summary", "value": "今日总结" },
+    { "name": "weekly_report", "value": "每周报告" },
+    { "name": "language_settings", "value": "语言设置" },
+    { "name": "goal_reached", "value": "目标达成！" },
+    { "name": "steps_unit", "value": "步" },
+    { "name": "kg_unit", "value": "公斤" },
+    { "name": "pedometer_desc", "value": "此应用需要访问您的运动活动，以便统计步数并计算行走距离和节省的二氧化碳。" },
+    { "name": "module_desc", "value": "模块描述" },
+    { "name": "EntryAbility_desc", "value": "描述" },
+    { "name": "EntryAbility_label", "value": "地球步伐" }
+  ]
+}
