@@ -11,18 +11,18 @@ export default struct EcoBadge {
   private getBadge(): BadgeInfo {
     if (this.co2Saved > 1) {
       return {
-        text: '🌍 ' +  this.context?.resourceManager.getStringSync($r('app.string.eco_hero').id),
+        text: `🌍 ${this.context?.resourceManager.getStringSync($r('app.string.eco_hero').id)}`,
         color: '#4CAF50'
       }
     }
     if (this.co2Saved > 0.5) {
       return {
-        text: '🌿 ' +    this.context?.resourceManager.getStringSync($r('app.string.green_walker').id),
+        text: `🌿 ${this.context?.resourceManager.getStringSync($r('app.string.green_walker').id)}`,
         color: '#81C784'
       }
     }
     return {
-      text: '🚶 ' + this.context?.resourceManager.getStringSync($r('app.string.keep_going').id),
+      text: `🚶 ${this.context?.resourceManager.getStringSync($r('app.string.keep_going').id)}`,
       color: '#FFB74D'
     }
   }

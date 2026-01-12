@@ -9,7 +9,7 @@ export default class StepSensorService {
     try {
       sensor.on(sensor.SensorId.PEDOMETER, (data: sensor.PedometerResponse) => {
         callback(data.steps)
-        console.info('Succeeded in invoking once. Step count: ' + data.steps);
+        console.info(`Succeeded in invoking once. Step count: ${data.steps}`);
       },{ interval: INTERVAL });
     } catch (error) {
       let e: BusinessError = error as BusinessError;
@@ -22,7 +22,7 @@ export default class StepSensorService {
       sensor.off(sensor.SensorId.PEDOMETER);
       console.info('All pedometer subscriptions stopped.');
     } catch (error) {
-      console.error('Subscriptions could not be stopped:', error);
+      console.error(`Subscriptions could not be stopped:,${error}`);
     }
   }
 }

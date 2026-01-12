@@ -14,7 +14,7 @@ struct MainPage {
     this.vm.fetchStepData()
     this.context = this.getUIContext().getHostContext()
     if(this.context) {
-      console.error('tag color : ' + this.context.resourceManager.getColorSync($r('app.color.eco_hero').id))
+      console.error(`tag color : ${this.context.resourceManager.getColorSync($r('app.color.eco_hero').id)}`)
     }
 
     console.error('tag','aboutToAppear')
@@ -32,7 +32,7 @@ struct MainPage {
       Stack({ alignContent: Alignment.Center }) {
         Scroll(this.scroller) {
           Column({ space: 5 }) {
-            Text('🌍 ' + this.context?.resourceManager.getStringSync($r('app.string.app_name').id))
+            Text(`🌍 ${this.context?.resourceManager.getStringSync($r('app.string.app_name').id)}`)
               .fontSize(16)
               .fontWeight(FontWeight.Bold)
               .textAlign(TextAlign.Center)

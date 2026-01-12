@@ -1,6 +1,7 @@
 import { AbilityConstant, ConfigurationConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { window } from '@kit.ArkUI';
+import MyContext from './MyContext';
 
 const DOMAIN = 0x0000;
 
@@ -22,6 +23,11 @@ export default class EntryAbility extends UIAbility {
       if (err.code) {
         hilog.error(DOMAIN, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err));
         return;
+      }
+      let context: Context | undefined = windowStage.getMainWindowSync().getUIContext().getHostContext();
+      if (context) {
+        AppStorage.setOrCreate('context', context);
+        MyContext.getInstance().saveContext(context)
       }
       hilog.info(DOMAIN, 'testTag', 'Succeeded in loading the content.');
     });

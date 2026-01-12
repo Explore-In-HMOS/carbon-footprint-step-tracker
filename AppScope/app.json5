@@ -1,7 +1,7 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.earthsteps",
-    "vendor": "example",
+    "bundleName": "com.hmosdemos.wearable.carbon_footprint_step_tracker",
+    "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",
     "icon": "$media:app_layered_image",

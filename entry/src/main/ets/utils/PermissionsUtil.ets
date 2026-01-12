@@ -5,7 +5,7 @@ import { hilog } from '@kit.PerformanceAnalysisKit';
 const domain = 0x0000;
 
 class PermissionsUtil {
-
+  private context: Context = AppStorage.get('context') as Context
   async checkPermissions(permissions: Array<Permissions>): Promise<void> {
     let applyResult: boolean = false;
     for (let permission of permissions) {
@@ -50,7 +50,7 @@ class PermissionsUtil {
 
   requestPermissions(permissions: Array<Permissions>): void {
     let atManager: abilityAccessCtrl.AtManager = abilityAccessCtrl.createAtManager();
-    atManager.requestPermissionsFromUser(getContext() as common.UIAbilityContext, permissions)
+    atManager.requestPermissionsFromUser(this.context as common.UIAbilityContext, permissions)
       .then((data: PermissionRequestResult) => {
         hilog.info(0x0000,'','request Permissions success')
       })
